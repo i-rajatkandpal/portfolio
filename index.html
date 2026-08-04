@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rajat Kandpal — Backend Developer</title>
+    <meta name="description"
+        content="Backend Software Engineer building scalable APIs with Java, Spring Boot & clean architecture." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Custom cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- ── TOP NAV (mobile) ── -->
+    <header id="topnav">
+        <a class="topnav-logo" href="#">Rajat Kandpal</a>
+        <button class="burger" id="burger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+    <div class="mobile-drawer" id="drawer">
+        <a href="#hero">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#journey">Experience</a>
+        <a href="#stack">Tools</a>
+        <a href="#contact">Let's Talk</a>
+    </div>
+
+    <div class="layout">
+
+        <!-- ══ SIDEBAR ══ -->
+        <aside class="sidebar">
+
+            <!-- Full-bleed photo header -->
+            <div class="sidebar-photo-header">
+                <img src="photo.jpg" alt="Rajat Kandpal" class="sidebar-photo"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                <div class="sidebar-photo-fallback">RK</div>
+                <div class="sidebar-photo-overlay"></div>
+                <div class="sidebar-photo-text">
+                    <h2 class="sidebar-name">Rajat Kandpal <span class="flame">🔥</span></h2>
+                    <p class="sidebar-role">Backend Developer</p>
+                </div>
+                <div class="sidebar-corner-tag">Available</div>
+            </div>
+
+            <div class="sidebar-inner">
+
+                <!-- Mini stats -->
+                <div class="sidebar-stats">
+                    <div class="sidebar-stat">
+                        <span class="ss-n">8.25</span>
+                        <span class="ss-l">CGPA</span>
+                    </div>
+                    <div class="sidebar-stat-div"></div>
+                    <div class="sidebar-stat">
+                        <span class="ss-n">400+</span>
+                        <span class="ss-l">LeetCode</span>
+                    </div>
+                    <div class="sidebar-stat-div"></div>
+                    <div class="sidebar-stat">
+                        <span class="ss-n">5+</span>
+                        <span class="ss-l">Projects</span>
+                    </div>
+                </div>
+
+                <p class="sidebar-bio">
+                    Building scalable, high-performance backend systems.
+                    Turning complex problems into clean architecture.
+                </p>
+
+                <!-- Social icons -->
+                <div class="sidebar-socials">
+                    <a href="https://github.com/i-rajatkandpal" target="_blank" rel="noopener" title="GitHub"
+                        class="magnetic">
+                        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                            <path
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 21.795 24 17.295 24 12c0-6.63-5.37-12-12-12" />
+                        </svg>
+                    </a>
+                    <a href="mailto:rajatkandpal@email.com" title="Email" class="magnetic">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"
+                            height="18">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="m2 7 10 7 10-7" />
+                        </svg>
+                    </a>
+                    <a href="https://buymeacoffee.com" target="_blank" rel="noopener" title="Buy Me a Coffee"
+                        class="magnetic">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"
+                            height="18">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                            <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                            <line x1="6" y1="1" x2="6" y2="4" />
+                            <line x1="10" y1="1" x2="10" y2="4" />
+                            <line x1="14" y1="1" x2="14" y2="4" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/i-rajatkandpal" target="_blank" rel="noopener" title="Code"
+                        class="magnetic">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18"
+                            height="18">
+                            <polyline points="16 18 22 12 16 6" />
+                            <polyline points="8 6 2 12 8 18" />
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Nav -->
+                <nav class="sidebar-nav">
+                    <a href="#hero" class="snav-link" data-section="hero">Home</a>
+                    <a href="#projects" class="snav-link" data-section="projects">Projects</a>
+                    <a href="#journey" class="snav-link" data-section="journey">Experience</a>
+                    <a href="#stack" class="snav-link" data-section="stack">Tools</a>
+                    <a href="#contact" class="snav-link" data-section="contact">Contact</a>
+                </nav>
+
+            </div>
+        </aside>
+
+        <!-- ══ MAIN CONTENT ══ -->
+        <main class="main">
+
+            <!-- HERO -->
+            <section id="hero" class="section hero-section">
+                <div class="hero-ambient"></div>
+
+                <div class="hero-available fade-up">
+                    <span class="pulse-dot"></span> Available for opportunities
+                </div>
+
+                <div class="big-label fade-up scramble-text" data-text="BACKEND DEVELOPER">BACKEND DEVELOPER</div>
+                <div class="big-label big-label-dim fade-up scramble-text" data-text="&amp; CS STUDENT">&amp; CS STUDENT
+                </div>
+
+                <p class="hero-sub fade-up">
+                    Passionate about building scalable, reliable backend systems.
+                    Specialize in transforming complex problems into elegant architecture.
+                </p>
+
+                <div class="stats-row fade-up">
+                    <div class="stat">
+                        <span class="stat-n" data-target="8.25" data-decimal="2">0</span>
+                        <span class="stat-l">CGPA (B.TECH CSE)</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-n" data-target="400" data-suffix="+">0</span>
+                        <span class="stat-l">LEETCODE PROBLEMS SOLVED</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-n" data-target="5" data-suffix="+">0</span>
+                        <span class="stat-l">PROJECTS BUILT</span>
+                    </div>
+                </div>
+
+                <div class="hero-ctas fade-up">
+                    <a href="#projects" class="btn-orange magnetic">View Projects</a>
+                    <a href="#contact" class="btn-ghost magnetic">Get in Touch</a>
+                </div>
+
+                <div class="hero-scroll-hint fade-up">
+                    <div class="scroll-line"></div>
+                    <span>Scroll</span>
+                </div>
+            </section>
+
+            <!-- RECENT PROJECTS -->
+            <section id="projects" class="section">
+                <div class="section-heading fade-up">
+                    <span class="sh-tag">RECENT</span>
+                    <h2 class="sh-big scramble-text" data-text="PROJECTS">PROJECTS</h2>
+                </div>
+                <div class="project-list">
+
+                    <a class="proj-row tilt-card fade-up" href="https://github.com/i-rajatkandpal/APILimiter"
+                        target="_blank" rel="noopener">
+                        <div class="proj-left">
+                            <span class="proj-num">01</span>
+                            <div>
+                                <h3 class="proj-title">API Rate Limiter</h3>
+                                <p class="proj-desc">Reverse proxy gateway with JWT auth, 3 rate-limiting algorithms
+                                    (Token Bucket, Sliding Window, Fixed Window) via Redis, Docker Compose.</p>
+                                <div class="proj-chips">
+                                    <span>Java</span><span>Spring Boot</span><span>Redis</span><span>Docker</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-arrow">↗</div>
+                    </a>
+
+                    <a class="proj-row tilt-card fade-up" href="https://github.com/i-rajatkandpal/SecurePass"
+                        target="_blank" rel="noopener">
+                        <div class="proj-left">
+                            <span class="proj-num">02</span>
+                            <div>
+                                <h3 class="proj-title">SecurePass</h3>
+                                <p class="proj-desc">Java password hashing library, PBKDF2-SHA256, 120,000 iterations,
+                                    constant-time verification, 128-bit salts.</p>
+                                <div class="proj-chips">
+                                    <span>Java</span><span>Security</span><span>Library</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-arrow">↗</div>
+                    </a>
+
+                    <a class="proj-row tilt-card fade-up" href="https://github.com/i-rajatkandpal/QueueCTL"
+                        target="_blank" rel="noopener">
+                        <div class="proj-left">
+                            <span class="proj-num">03</span>
+                            <div>
+                                <h3 class="proj-title">QueueCTL</h3>
+                                <p class="proj-desc">CLI background job queue, worker threads, exponential-backoff
+                                    retries, Dead Letter Queue, PostgreSQL persistence, Spring Boot + Spring Shell.</p>
+                                <div class="proj-chips">
+                                    <span>Spring Boot</span><span>PostgreSQL</span><span>CLI</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="proj-arrow">↗</div>
+                    </a>
+
+                </div>
+            </section>
+
+            <!-- MY JOURNEY -->
+            <section id="journey" class="section">
+                <div class="section-heading fade-up">
+                    <span class="sh-tag">MY</span>
+                    <h2 class="sh-big scramble-text" data-text="JOURNEY">JOURNEY</h2>
+                </div>
+                <div class="journey-list">
+
+                    <div class="journey-item tilt-card fade-up">
+                        <div class="ji-left">
+                            <span class="ji-date">Sep 2025 – Oct 2025</span>
+                            <span class="ji-badge">Internship</span>
+                        </div>
+                        <div class="ji-right">
+                            <h3 class="ji-title">IBM FSP — Virtual Intern</h3>
+                            <p class="ji-sub">Remote</p>
+                            <p class="ji-desc">Cloud Computing virtual internship. Worked with AWS S3 storage, IAM roles
+                                and policies, and deployed applications via AWS Elastic Beanstalk.</p>
+                        </div>
+                    </div>
+
+                    <div class="journey-item tilt-card fade-up">
+                        <div class="ji-left">
+                            <span class="ji-date">2023 – 2027</span>
+                            <span class="ji-badge">Education</span>
+                        </div>
+                        <div class="ji-right">
+                            <h3 class="ji-title">B.Tech, Computer Science</h3>
+                            <p class="ji-sub">Pranveer Singh Institute of Technology</p>
+                            <p class="ji-desc">Coursework in DSA, OOPs, Computer Networks, DBMS. Currently maintaining a
+                                CGPA of 8.25.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- TECH STACK -->
+            <section id="stack" class="section">
+                <div class="section-heading fade-up">
+                    <span class="sh-tag">TECH</span>
+                    <h2 class="sh-big scramble-text" data-text="STACK">STACK</h2>
+                </div>
+                <div class="tech-grid fade-up">
+                    <div class="tech-item tilt-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                            alt="Java" />
+                        <div>
+                            <h4>Java</h4>
+                            <p>Programming Language</p>
+                        </div>
+                    </div>
+                    <div class="tech-item tilt-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                            alt="Spring Boot" />
+                        <div>
+                            <h4>Spring Boot</h4>
+                            <p>Backend Framework</p>
+                        </div>
+                    </div>
+                    <div class="tech-item tilt-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                            alt="PostgreSQL" />
+                        <div>
+                            <h4>PostgreSQL</h4>
+                            <p>Database</p>
+                        </div>
+                    </div>
+                    <div class="tech-item tilt-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
+                            alt="Redis" />
+                        <div>
+                            <h4>Redis</h4>
+                            <p>In-Memory Data Store</p>
+                        </div>
+                    </div>
+                    <div class="tech-item tilt-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                            alt="Docker" />
+                        <div>
+                            <h4>Docker</h4>
+                            <p>Containerization</p>
+                        </div>
+                    </div>
+                    <div class="tech-item tilt-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                            alt="Git & GitHub" />
+                        <div>
+                            <h4>Git &amp; GitHub</h4>
+                            <p>Version Control</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section id="contact" class="section">
+                <div class="section-heading fade-up">
+                    <span class="sh-tag">LET'S</span>
+                    <h2 class="sh-big scramble-text" data-text="WORK">WORK</h2>
+                    <h2 class="sh-big sh-dim scramble-text" data-text="TOGETHER">TOGETHER</h2>
+                </div>
+                <form class="contact-form fade-up" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <input type="hidden" name="_subject" value="New message from portfolio" />
+                    <div class="cf-row">
+                        <div class="cf-group">
+                            <label for="cf-name">Name</label>
+                            <input id="cf-name" type="text" name="name" placeholder="Your name" required />
+                        </div>
+                        <div class="cf-group">
+                            <label for="cf-email">Email</label>
+                            <input id="cf-email" type="email" name="email" placeholder="your@email.com" required />
+                        </div>
+                    </div>
+                    <div class="cf-group">
+                        <label for="cf-msg">Message</label>
+                        <textarea id="cf-msg" name="message" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn-orange magnetic">Send Message</button>
+                </form>
+            </section>
+
+            <footer class="footer">
+                <p>© 2025 Rajat Kandpal — Built with passion</p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
