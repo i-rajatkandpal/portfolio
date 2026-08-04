@@ -1171,9 +1171,6 @@ body::before {
         box-shadow: 0 0 8px rgba(255, 107, 53, 0.5);
     }
 
-    50% {
-        box-shadow: 0 0 20px rgba(255, 107, 53, 0.9);
-    }
 }
 
 /* ── Inner content ── */
